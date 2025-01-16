@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário dos Últimos 50 Anos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-center">
+    <div class="container mx-auto py-8">
+        <h1 class="text-2xl font-bold mb-4">Calendário dos Últimos 50 Anos</h1>
+        <label for="year-select" class="block text-lg font-medium mb-2">Selecione o Ano:</label>
+        <select id="year-select" class="block mx-auto p-2 border rounded">
+        </select>
+        <div id="leap-year" class="text-lg font-medium mt-4"></div>
+        <div id="calendar-container" class="grid grid-cols-4 gap-6 mt-6"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
